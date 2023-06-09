@@ -1,0 +1,149 @@
+
+.body { 
+    background-color: rgb(136, 245, 209);
+
+
+}
+
+.in.flex {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.contenedor,
+i {
+    display: flex;
+    color: orange;
+}
+
+.hola h1,
+h2 {
+    color: orange;
+}
+
+ul {
+    margin: 20px;
+}
+
+table th,
+td {
+
+    margin: 20px;
+    font: .6em;
+    border: solid 3px orange;
+    padding: 8px;
+
+
+}
+
+.imagen-01 {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    ;
+    border-radius: 150px;
+    border: 5px solid orange;
+}
+
+
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+* {
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+.container-form {
+    width: 100px;
+    max-width: 1200px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 90px;
+}
+
+.container-form h2 {
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+.container-form p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-form a {
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.container-form a i {
+    color: orange;
+    margin-right: 10px;
+}
+
+.container-form form .campo,
+textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 2px solid orange;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+.formulario {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group-text, .form-control {
+    padding: 10px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+    
+  
+
+ 
+ 
+  
+
+  
